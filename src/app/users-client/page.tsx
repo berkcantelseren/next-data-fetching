@@ -2,6 +2,8 @@
 
 import { useState, useEffect } from "react";
 
+// if not needed for interactive + real-time data change use server component.
+
 type User = {
   id: number;
   name: string;
